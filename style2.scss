@@ -1,0 +1,31 @@
+@import "reset2";
+
+
+#header2 {
+  background: #323232;
+
+  .header2-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &__logo {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      color: #DEDEDE;
+      font-family: "Ms Madi", sans-serif;
+    }
+
+    &__nav {
+      font-family: 'Manrope', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -0.5px;
+      color: #DEDEDE;
+      padding: 0 10px;
+    }
+  }
+}
